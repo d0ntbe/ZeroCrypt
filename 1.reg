@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Directory\shell\ZeroCrypt]
+@="<=ZeroCrypt=>"
+[HKEY_CLASSES_ROOT\Directory\shell\ZeroCrypt\command]
+@="cmd.exe /k C:\\ZeroCrypt.exe %1 %2 %3 %4"
+[HKEY_CLASSES_ROOT\*\shell\ZeroCrypt]
+@="<=ZeroCrypt=>"
+[HKEY_CLASSES_ROOT\*\shell\ZeroCrypt\command]
+@="cmd.exe /k C:\\ZeroCrypt.exe %1 %2 %3 %4"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers]
+"C:\\ZeroCrypt.exe"="~WIN7RTM RUNASADMIN"
